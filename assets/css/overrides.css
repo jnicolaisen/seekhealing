@@ -1,0 +1,43 @@
+html, body {
+    font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background-color: #fbfbfb;
+    color: #222;
+}
+b, strong {
+    font-weight: 400;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+h1.masthead {
+    margin: 0 auto;
+}
+
+h1.masthead, p.tagline {
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+#social-media > p {
+    text-align: center;
+}
+
+li.nav-multilink > a {
+    display: inline;
+    padding: 10px 0px 10px 15px;
+
+}
